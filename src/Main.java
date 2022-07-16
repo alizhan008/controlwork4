@@ -28,7 +28,97 @@ public class Main {
         Cat4.satietyLevel(Cat4);
         Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
 
+        Scanner scn = new Scanner(System.in);
+        System.out.printf("Выберите действие:%n 1: Кормить%n 2: Поиграть%n 3: К ветеринару%n :");
+        switch (scn.nextInt()) {
+            case 1:
+                System.out.println("Кормить кота");
+                System.out.print("Выберите какого хотите покормить (1-4): ");
+                Scanner sc = new Scanner(System.in);
+                switch (sc.nextInt()) {
+                    case 1:
+                        Cat1.setHealthLevel(+5);
+                        Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
+                        System.out.printf("Вы покормили кота: %s", Cat1.getName());
+                        break;
+                    case 2:
+                        Cat2.setHealthLevel(+5);
+                        Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
+                        System.out.printf("Вы покормили кота: %s", Cat2.getName());
+                        break;
+                    case 3:
+                        Cat3.setHealthLevel(+5);
+                        Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
+                        System.out.printf("Вы покормили кота: %s", Cat3.getName());
+                        break;
+                    case 4:
+                        Cat4.setHealthLevel(+5);
+                        Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
+                        System.out.printf("Вы покормили кота: %s", Cat4.getName());
+                    default:
+                        System.out.println("Вы не выбрали кота!");
+                }
+                break;
+            case 2:
+                System.out.println("Играть с котом");
+                System.out.print("Выберите с кем хотите поиграть (1-4): ");
+                Scanner scr = new Scanner(System.in);
+                switch (scr.nextInt()) {
+                    case 1:
+                        Cat1.setMoodLevel(+5);
+                        Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
+                        System.out.printf("Вы поиграли с котом: %s", Cat1.getName());
+                        break;
+                    case 2:
+                        Cat2.setMoodLevel(+5);
+                        Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
+                        System.out.printf("Вы поиграли с котом: %s", Cat2.getName());
+                        break;
+                    case 3:
+                        Cat3.setMoodLevel(+5);
+                        Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
+                        System.out.printf("Вы поиграли с котом: %s", Cat3.getName());
+                        break;
+                    case 4:
+                        Cat4.setMoodLevel(+5);
+                        Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
+                        System.out.printf("Вы поиграли с котом: %s", Cat4.getName());
+                    default:
+                        System.out.println("Вы не выбрали кота!");
+                }
+                break;
+            case 3:
+                System.out.println("Лечить кота");
+                System.out.print("Выберите кого хотите лечить (1-4): ");
+                Scanner sca = new Scanner(System.in);
+                switch (sca.nextInt()) {
+                    case 1:
+                        Cat1.setHealthLevel(+5);
+                        Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
+                        System.out.printf("Вы вылечили кота: %s", Cat1.getName());
+                        break;
+                    case 2:
+                        Cat2.setMoodLevel(+5);
+                        Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
+                        System.out.printf("Вы вылечили кота:: %s", Cat2.getName());
+                        break;
+                    case 3:
+                        Cat3.setMoodLevel(+5);
+                        Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
+                        System.out.printf("Вы вылечили кота: %s", Cat3.getName());
+                        break;
+                    case 4:
+                        Cat4.setMoodLevel(+5);
+                        Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
+                        System.out.printf("Вы вылечили кота: %s", Cat4.getName());
+                    default:
+                        System.out.println("Вы не выбрали кота!");
+                }
+                break;
+            default:
+                System.out.println("Вы не выбрали кота!");
 
+        }
 
 
 
