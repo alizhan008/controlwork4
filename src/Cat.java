@@ -21,9 +21,9 @@ public class Cat {
     public Cat(String name, Integer age) {
         this.name = name;
         this.age = age;
-        this.satietyLevel = r.nextInt(0,80);
-        this.moodLevel = r.nextInt(0,80);
-        this.healthLevel = r.nextInt(0,80);
+        this.satietyLevel = r.nextInt(20,80);
+        this.moodLevel = r.nextInt(20,80);
+        this.healthLevel = r.nextInt(20,80);
     }
 
     public String getName() {
@@ -95,4 +95,18 @@ public class Cat {
 
     }
 
+    public static void printNewCat(Cat cat1,Cat cat2,Cat cat3,Cat cat4){
+        System.out.println("---+---------+---------+-----------+------------+---------+-----------------+");
+        System.out.println(" # |   »Ãﬂ   | ¬Œ«–¿—“ | «ƒŒ–Œ¬‹≈  | Õ¿—“–Œ≈Õ»≈ | —€“Œ—“‹ | —–≈ƒÕ»… ”–Œ¬≈Õ‹ |");
+        System.out.println("---+---------+---------+-----------+------------+---------+-----------------+");
+        System.out.printf(" 1 |%8s |%9s|%11s|%12s|%9s|%17s|%n",
+                cat1.getName(), cat1.getAge(),cat1.getHealthLevel(),cat1.getMoodLevel(),cat1.getSatietyLevel(),cat1.getMediumLevel());
+        System.out.printf(" 2 |%8s |%9s|%11s|%12s|%9s|%17s|%n",
+                cat2.getName(), cat2.getAge(),cat2.getHealthLevel(),cat2.getMoodLevel(),cat2.getSatietyLevel(),cat2.getMediumLevel());
+        System.out.printf(" 3 |%8s |%9s|%11s|%12s|%9s|%17s|%n",
+                cat3.getName(), cat3.getAge(),cat3.getHealthLevel(),cat3.getMoodLevel(),cat3.getSatietyLevel(),cat3.getMediumLevel());
+        System.out.printf(" 4 |%8s |%9s|%11s|%12s|%9s|%17s|%n",
+                cat4.getName(), cat4.getAge(),cat4.getHealthLevel(),cat4.getMoodLevel(),cat4.getSatietyLevel(),cat4.getMediumLevel());
+        System.out.println("---+---------+---------+-----------+------------+---------+-----------------+");
+    }
 }
