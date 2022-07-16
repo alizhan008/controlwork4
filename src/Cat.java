@@ -21,9 +21,9 @@ public class Cat {
     public Cat(String name, Integer age) {
         this.name = name;
         this.age = age;
-        this.satietyLevel = r.nextInt(20,80);
-        this.moodLevel = r.nextInt(20,80);
-        this.healthLevel = r.nextInt(20,80);
+        this.satietyLevel = r.nextInt(21,81);
+        this.moodLevel = r.nextInt(21,81);
+        this.healthLevel = r.nextInt(21,81);
     }
 
     public String getName() {
@@ -62,6 +62,10 @@ public class Cat {
     public void setMoodLevel(Integer moodLevel) {
         this.moodLevel += moodLevel;
     }
+
+    public void setMoodLevelEquals(Integer moodLevel) {
+        this.moodLevel = moodLevel;
+    }
     public void setMoodLevel1(Integer moodLevel) {
         this.moodLevel -= moodLevel;
     }
@@ -72,6 +76,12 @@ public class Cat {
 
     public void setHealthLevel(Integer healthLevel) {
         this.healthLevel = healthLevel;
+    }
+    public void setHealthLevel1(Integer healthLevel) {
+        this.healthLevel -= healthLevel;
+    }
+    public void setHealthLevelEquals(Integer healthLevel) {
+        this.healthLevel -= healthLevel;
     }
 
     public int getMediumLevel() {

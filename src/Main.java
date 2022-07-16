@@ -8,9 +8,9 @@ public class Main {
 
     public static void run() {
         Random r = new Random();
-        Cat Cat1 = new Cat("Tom", 5, r.nextInt(0, 100), r.nextInt(0, 100), r.nextInt(0, 100));
-        Cat Cat2 = new Cat("Jasper", 8, r.nextInt(0, 100), r.nextInt(0, 100), r.nextInt(0, 100));
-        Cat Cat3 = new Cat("Black", 10, r.nextInt(0, 100), r.nextInt(0, 100), r.nextInt(0, 100));
+        Cat Cat1 = new Cat("Tom", 5, r.nextInt(0, 101), r.nextInt(0, 101), r.nextInt(0, 101));
+        Cat Cat2 = new Cat("Jasper", 8, r.nextInt(0, 101), r.nextInt(0, 101), r.nextInt(0, 101));
+        Cat Cat3 = new Cat("Black", 10, r.nextInt(0, 101), r.nextInt(0, 101), r.nextInt(0, 101));
 
         Cat1.satietyLevel(Cat1);
         Cat2.satietyLevel(Cat2);
@@ -51,7 +51,7 @@ public class Main {
                         }
 
                         Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
-                        System.out.printf("Вы покормили кота: %s", Cat1.getName());
+                        System.out.printf("Вы покормили кота: %s%n", Cat1.getName());
                         break;
                     case 2:
                         if (Cat1.getAge() <= 5){
@@ -67,7 +67,7 @@ public class Main {
                             Cat1.setMoodLevel(+4);
                         }
                         Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
-                        System.out.printf("Вы покормили кота: %s", Cat2.getName());
+                        System.out.printf("Вы покормили кота: %s%n", Cat2.getName());
                         break;
                     case 3:
                         if (Cat1.getAge() <= 5){
@@ -83,7 +83,7 @@ public class Main {
                             Cat1.setMoodLevel(+4);
                         }
                         Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
-                        System.out.printf("Вы покормили кота: %s", Cat3.getName());
+                        System.out.printf("Вы покормили кота: %s%n", Cat3.getName());
                         break;
                     case 4:
                         if (Cat1.getAge() <= 5){
@@ -99,7 +99,7 @@ public class Main {
                             Cat1.setMoodLevel(+4);
                         }
                         Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
-                        System.out.printf("Вы покормили кота: %s", Cat4.getName());
+                        System.out.printf("Вы покормили кота: %s%n", Cat4.getName());
                     default:
                         System.out.println("Вы не выбрали кота!");
                 }
@@ -126,7 +126,7 @@ public class Main {
                             Cat1.setSatietyLevel1(3);
                         }
                         Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
-                        System.out.printf("Вы поиграли с котом: %s", Cat1.getName());
+                        System.out.printf("Вы поиграли с котом: %s%n", Cat1.getName());
                         break;
                     case 2:
                         if (Cat1.getAge() <= 5){
@@ -145,7 +145,7 @@ public class Main {
                             Cat1.setSatietyLevel1(3);
                         }
                         Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
-                        System.out.printf("Вы поиграли с котом: %s", Cat2.getName());
+                        System.out.printf("Вы поиграли с котом: %s%n", Cat2.getName());
                         break;
                     case 3:
                         if (Cat1.getAge() <= 5){
@@ -164,7 +164,7 @@ public class Main {
                             Cat1.setSatietyLevel1(3);
                         }
                         Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
-                        System.out.printf("Вы поиграли с котом: %s", Cat3.getName());
+                        System.out.printf("Вы поиграли с котом: %s%n", Cat3.getName());
                         break;
                     case 4:
                         if (Cat1.getAge() <= 5){
@@ -183,7 +183,7 @@ public class Main {
                             Cat1.setSatietyLevel1(3);
                         }
                         Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
-                        System.out.printf("Вы поиграли с котом: %s", Cat4.getName());
+                        System.out.printf("Вы поиграли с котом: %s%n", Cat4.getName());
                     default:
                         System.out.println("Вы не выбрали кота!");
                 }
@@ -210,7 +210,7 @@ public class Main {
                             Cat1.setSatietyLevel1(6);
                         }
                         Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
-                        System.out.printf("Вы вылечили кота: %s", Cat1.getName());
+                        System.out.printf("Вы вылечили кота: %s%n", Cat1.getName());
                         break;
                     case 2:
                         if (Cat1.getAge() <= 5){
@@ -229,7 +229,7 @@ public class Main {
                             Cat1.setSatietyLevel1(6);
                         }
                         Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
-                        System.out.printf("Вы вылечили кота:: %s", Cat2.getName());
+                        System.out.printf("Вы вылечили кота:: %s%n", Cat2.getName());
                         break;
                     case 3:
                         if (Cat1.getAge() <= 5){
@@ -248,7 +248,7 @@ public class Main {
                             Cat1.setSatietyLevel1(6);
                         }
                         Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
-                        System.out.printf("Вы вылечили кота: %s", Cat3.getName());
+                        System.out.printf("Вы вылечили кота: %s%n", Cat3.getName());
                         break;
                     case 4:
                         if (Cat1.getAge() <= 5){
@@ -267,7 +267,7 @@ public class Main {
                             Cat1.setSatietyLevel1(6);
                         }
                         Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
-                        System.out.printf("Вы вылечили кота: %s", Cat4.getName());
+                        System.out.printf("Вы вылечили кота: %s%n", Cat4.getName());
                     default:
                         System.out.println("Вы не выбрали кота!");
                 }
@@ -275,6 +275,30 @@ public class Main {
             default:
                 System.out.println("Вы не выбрали кота!");
 
+        }
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Чтобы выбрать следующий день нажмите: 1");
+        if (scanner.nextInt() == 1){
+            Random random = new Random();
+            Cat1.setSatietyLevel1(random.nextInt(2,6));
+            Cat1.setMoodLevelEquals(random.nextInt(4)-random.nextInt(4));
+            Cat1.setHealthLevelEquals(random.nextInt(4)- random.nextInt(4));
+
+
+            Cat2.setSatietyLevel1(random.nextInt(2,6));
+            Cat2.setMoodLevelEquals(random.nextInt(4)-random.nextInt(4));
+            Cat2.setHealthLevelEquals(random.nextInt(4)- random.nextInt(4));
+
+            Cat2.setSatietyLevel1(random.nextInt(2,6));
+            Cat2.setMoodLevelEquals(random.nextInt(4)-random.nextInt(4));
+            Cat2.setHealthLevelEquals(random.nextInt(4)- random.nextInt(4));
+
+            Cat3.setSatietyLevel1(random.nextInt(2,6));
+            Cat3.setMoodLevelEquals(random.nextInt(4)-random.nextInt(4));
+            Cat3.setHealthLevelEquals(random.nextInt(4)- random.nextInt(4));
+
+            Cat.printNewCat(Cat1, Cat2, Cat3, Cat4);
         }
 
 
