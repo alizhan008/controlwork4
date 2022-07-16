@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81f56c0a-51fe-4170-8c9d-098c8f3cd028" name="Changes" comment="stage1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="81f56c0a-51fe-4170-8c9d-098c8f3cd028" name="Changes" comment="stage3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -68,7 +67,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657955582240</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="stage2">
+      <created>1657960306246</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657960306246</updated>
+    </task>
+    <task id="LOCAL-00003" summary="stage3">
+      <created>1657960333767</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657960333767</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,6 +97,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="stage1" />
-    <option name="LAST_COMMIT_MESSAGE" value="stage1" />
+    <MESSAGE value="stage2" />
+    <MESSAGE value="stage3" />
+    <option name="LAST_COMMIT_MESSAGE" value="stage3" />
   </component>
 </project>

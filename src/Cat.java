@@ -47,7 +47,12 @@ public class Cat {
     }
 
     public void setSatietyLevel(Integer satietyLevel) {
-        this.satietyLevel = satietyLevel;
+
+        this.satietyLevel += satietyLevel;
+    }
+    public void setSatietyLevel1(Integer satietyLevel) {
+
+        this.satietyLevel -= satietyLevel;
     }
 
     public Integer getMoodLevel() {
@@ -55,7 +60,10 @@ public class Cat {
     }
 
     public void setMoodLevel(Integer moodLevel) {
-        this.moodLevel = moodLevel;
+        this.moodLevel += moodLevel;
+    }
+    public void setMoodLevel1(Integer moodLevel) {
+        this.moodLevel -= moodLevel;
     }
 
     public Integer getHealthLevel() {
